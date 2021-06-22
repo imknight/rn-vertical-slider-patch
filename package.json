@@ -1,5 +1,5 @@
 {
-  "name": "rn-vertical-slider",
+  "name": "rn-vertical-slider-patch",
   "version": "2.0.2",
   "description": "A vertical Slider for React Native written entirely in javascript.",
   "main": "lib/commonjs/index",
@@ -39,13 +39,13 @@
     "rn",
     "rn-vertical-slider"
   ],
-  "repository": "https://github.com/sacmii/rn-vertical-slider",
-  "author": "Aswin Lakshmanan <aswinlak9@gmail.com> (https://github.com/sacmii)",
+  "repository": "https://github.com/imknight/rn-vertical-slider-patch",
+  "author": "Knight Tan <knight@productizehq.com> (https://github.com/imknight)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sacmii/rn-vertical-slider/issues"
+    "url": "https://github.com/imknight/rn-vertical-slider-patch/issues"
   },
-  "homepage": "https://github.com/sacmii/rn-vertical-slider#readme",
+  "homepage": "https://github.com/imknight/rn-vertical-slider-patch#readme",
   "devDependencies": {
     "@commitlint/config-conventional": "^8.3.4",
     "@react-native-community/bob": "^0.16.2",
@@ -64,7 +64,7 @@
     "pod-install": "^0.1.0",
     "prettier": "^2.0.5",
     "react": "16.11.0",
-    "react-native": "0.62.2",
+    "react-native": "^0.64.2",
     "release-it": "^13.5.8",
     "typescript": "^3.8.3"
   },
