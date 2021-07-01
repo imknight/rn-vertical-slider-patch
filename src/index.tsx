@@ -42,6 +42,7 @@ interface props {
     shadowColor?: string;
   };
   renderIndicator?: (value: number) => JSX.Element;
+  renderTracker?: () => JSX.Element;
 }
 
 interface state {
@@ -210,6 +211,7 @@ export default class VerticalSlider extends React.Component<props, state> {
         shadowColor = '#000',
       } = {},
       renderIndicator = null,
+      renderTracker = null,
     } = this.props;
 
     const shadowStyles = {
@@ -243,6 +245,10 @@ export default class VerticalSlider extends React.Component<props, state> {
           ]}
           {...this.state.panResponder.panHandlers}
         >
+        {renderTracker && (
+              renderTracker()
+            ) 
+        }
           <Animated.View
             style={[
               styles.slider,
